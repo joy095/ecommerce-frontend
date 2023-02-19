@@ -10,7 +10,6 @@ import Blog from "./pages/Blog";
 import CompareProduct from "./pages/CompareProduct";
 import WishList from "./pages/WishList";
 import Login from "./pages/Login";
-import PageNotFound from "./pages/PageNotFound";
 import ForgotPassword from "./pages/ForgotPassword";
 import Signup from "./pages/Signup";
 import ResetPassword from "./pages/ResetPassword";
@@ -28,7 +27,6 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="*" element={<PageNotFound />} />
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
