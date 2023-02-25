@@ -29,6 +29,6 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 </a>
 <a href="https://ecommerce-frontend-brown.vercel.app">
 <div align="center">
-<img hight="300" width="700" alt="GIF" align="center" src="./src/images/Ecommerce_banner.png">
+<img hight="300" width="700" alt="GIF" align="center" src="./src/images/ecommerce_banner.png">
 </div>
 </a>
